@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EB2BFA44127002F80FDA147 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9466916491568F8BC9A4AED /* Engine.swift */; };
+		2F527994BEA039CBE8B35E79 /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DFFBF9D07CD7A0A88C4340 /* SampleHandler.swift */; };
+		4D3460361B3057D6C1B68E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249208C07E3E218993CE9773 /* Assets.xcassets */; };
+		4EFDC965EA45FA788A2FD640 /* SignWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA109766754E5258848BA67B /* SignWords.swift */; };
+		4F661DCEBD158C2E1CF07AC5 /* Scenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80065A763EDE08BE20392AB4 /* Scenes.swift */; };
+		4FABFBC27C8B5C9A99562C62 /* MelodyLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F57E12D638E1EB5C8B25CD4 /* MelodyLines.swift */; };
+		5AEF91C9FAB4D67DBB3ABE67 /* BigScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251E19AF1B7ACF1C5AF3785B /* BigScreen.swift */; };
+		69AB09F3111D8CE358DB1E9F /* FeltBroadcast.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7ADE1168FE540EEB879066F6 /* FeltBroadcast.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6D774BA8BBD96AA8B5028B04 /* NoteReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2177756A78A5C0AF032C2B83 /* NoteReader.swift */; };
+		6F3B2097A54D57885AC28711 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355D7B862ABFBA3939D489CC /* Views.swift */; };
+		81905F5D0725A60B9C4058A9 /* FeltWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 782A0301673B07EAD4AD0B02 /* FeltWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		92BF4407039FC39286364832 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2841D16343D193503BAE2 /* Library.swift */; };
+		9C25910AD41C7DA93248EBF6 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05918FA1194C1DFD700CF0AC /* Links.swift */; };
+		9F12E09061DCAF111ABF2693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1550E9416C5E9E3FD11B3739 /* Assets.xcassets */; };
+		9F65132A734047C6834ADFC2 /* Torch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BC58597243ECB3C3999EF /* Torch.swift */; };
+		A260C0683C8C3F8BB50AD83E /* Sign.metal in Sources */ = {isa = PBXBuildFile; fileRef = C82559611B4EE6313E8D7DAF /* Sign.metal */; };
+		A70192E82D9DAD89D493C43C /* Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053279459C08362561AAF463 /* Reading.swift */; };
+		AD6B7A5B304441F6AF489154 /* SharedChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8F8C8CFFA06FA165B84A2 /* SharedChannel.swift */; };
+		B5D338169CC5E51E742DB3A8 /* Analyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2784184DE4D8F09B72BE7 /* Analyzer.swift */; };
+		BC52F39FAF742F283C97BC57 /* Exposure.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3AD6FA0BBCCD736B81F40 /* Exposure.metal */; };
+		BFCD111FF977B55C50D645EE /* FeltWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C79D04FAEEC11ACD28FD53C /* FeltWatch.swift */; };
+		C2C0A803A9166AD818EACE0D /* Analyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2784184DE4D8F09B72BE7 /* Analyzer.swift */; };
+		E25DD31B9381E8088E738761 /* SharedChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8F8C8CFFA06FA165B84A2 /* SharedChannel.swift */; };
+		F22D132046575DDD1B5690AB /* SignHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112EBAFAEDC0DD82A5C686FD /* SignHand.swift */; };
+		FBAC6A5A3311DB72EA55EDA6 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07221FC2AD5B1086E67DE107 /* Haptics.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AE9132FC075A3B5A44DAB38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA9522F4D80EE6583C75F121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E5CF7D32E84928C7A8F500;
+			remoteInfo = FeltWatch;
+		};
+		875C2091FCF29DC80A9DBFD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA9522F4D80EE6583C75F121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C3B7C98F751A92322B1FF59;
+			remoteInfo = FeltBroadcast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		056647FD80EA3B5C8FD1FF1C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				69AB09F3111D8CE358DB1E9F /* FeltBroadcast.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAA196D0E6C56433111AFC4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				81905F5D0725A60B9C4058A9 /* FeltWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		053279459C08362561AAF463 /* Reading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reading.swift; sourceTree = "<group>"; };
+		05918FA1194C1DFD700CF0AC /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		07221FC2AD5B1086E67DE107 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		0CB90B02ED383FED59F31A15 /* Felt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Felt.entitlements; sourceTree = "<group>"; };
+		112EBAFAEDC0DD82A5C686FD /* SignHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignHand.swift; sourceTree = "<group>"; };
+		137BC58597243ECB3C3999EF /* Torch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Torch.swift; sourceTree = "<group>"; };
+		1550E9416C5E9E3FD11B3739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16A368FF64246CE7E046C7CA /* Felt.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Felt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2177756A78A5C0AF032C2B83 /* NoteReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteReader.swift; sourceTree = "<group>"; };
+		249208C07E3E218993CE9773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		251E19AF1B7ACF1C5AF3785B /* BigScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigScreen.swift; sourceTree = "<group>"; };
+		2F57E12D638E1EB5C8B25CD4 /* MelodyLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelodyLines.swift; sourceTree = "<group>"; };
+		31D2841D16343D193503BAE2 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		355D7B862ABFBA3939D489CC /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		47A4033B7E42BA180321A945 /* FeltBroadcast.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FeltBroadcast.entitlements; sourceTree = "<group>"; };
+		6C79D04FAEEC11ACD28FD53C /* FeltWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeltWatch.swift; sourceTree = "<group>"; };
+		6CB3AD6FA0BBCCD736B81F40 /* Exposure.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Exposure.metal; sourceTree = "<group>"; };
+		70DFFBF9D07CD7A0A88C4340 /* SampleHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHandler.swift; sourceTree = "<group>"; };
+		782A0301673B07EAD4AD0B02 /* FeltWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeltWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADE1168FE540EEB879066F6 /* FeltBroadcast.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = FeltBroadcast.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B0B9EE5C9C128E73F4F0586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		80065A763EDE08BE20392AB4 /* Scenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenes.swift; sourceTree = "<group>"; };
+		845B0BE59CDC5BFA176566E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		854DA8C25167F7EDA3B97DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		94C8F8C8CFFA06FA165B84A2 /* SharedChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedChannel.swift; sourceTree = "<group>"; };
+		C82559611B4EE6313E8D7DAF /* Sign.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Sign.metal; sourceTree = "<group>"; };
+		DA109766754E5258848BA67B /* SignWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignWords.swift; sourceTree = "<group>"; };
+		E6B2784184DE4D8F09B72BE7 /* Analyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analyzer.swift; sourceTree = "<group>"; };
+		E9466916491568F8BC9A4AED /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1D0DEE323D9C21EBD241DDC9 = {
+			isa = PBXGroup;
+			children = (
+				83203003DE8D7E8D22AF4B23 /* Broadcast */,
+				4046B0A5B2DF636B6D81CB47 /* iOS */,
+				A680E912A145C3FB0D846E06 /* Shared */,
+				EE1116C3B4F8528754C50378 /* Watch */,
+				FC9F4F2768DA93BEB8E47B28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4046B0A5B2DF636B6D81CB47 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1550E9416C5E9E3FD11B3739 /* Assets.xcassets */,
+				251E19AF1B7ACF1C5AF3785B /* BigScreen.swift */,
+				E9466916491568F8BC9A4AED /* Engine.swift */,
+				6CB3AD6FA0BBCCD736B81F40 /* Exposure.metal */,
+				0CB90B02ED383FED59F31A15 /* Felt.entitlements */,
+				07221FC2AD5B1086E67DE107 /* Haptics.swift */,
+				845B0BE59CDC5BFA176566E0 /* Info.plist */,
+				31D2841D16343D193503BAE2 /* Library.swift */,
+				05918FA1194C1DFD700CF0AC /* Links.swift */,
+				2F57E12D638E1EB5C8B25CD4 /* MelodyLines.swift */,
+				2177756A78A5C0AF032C2B83 /* NoteReader.swift */,
+				053279459C08362561AAF463 /* Reading.swift */,
+				80065A763EDE08BE20392AB4 /* Scenes.swift */,
+				137BC58597243ECB3C3999EF /* Torch.swift */,
+				355D7B862ABFBA3939D489CC /* Views.swift */,
+				65C55C6136BEEDD0FADA64AF /* Sign */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		65C55C6136BEEDD0FADA64AF /* Sign */ = {
+			isa = PBXGroup;
+			children = (
+				C82559611B4EE6313E8D7DAF /* Sign.metal */,
+				112EBAFAEDC0DD82A5C686FD /* SignHand.swift */,
+				DA109766754E5258848BA67B /* SignWords.swift */,
+			);
+			path = Sign;
+			sourceTree = "<group>";
+		};
+		83203003DE8D7E8D22AF4B23 /* Broadcast */ = {
+			isa = PBXGroup;
+			children = (
+				47A4033B7E42BA180321A945 /* FeltBroadcast.entitlements */,
+				854DA8C25167F7EDA3B97DD4 /* Info.plist */,
+				70DFFBF9D07CD7A0A88C4340 /* SampleHandler.swift */,
+			);
+			path = Broadcast;
+			sourceTree = "<group>";
+		};
+		A680E912A145C3FB0D846E06 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E6B2784184DE4D8F09B72BE7 /* Analyzer.swift */,
+				94C8F8C8CFFA06FA165B84A2 /* SharedChannel.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EE1116C3B4F8528754C50378 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				249208C07E3E218993CE9773 /* Assets.xcassets */,
+				6C79D04FAEEC11ACD28FD53C /* FeltWatch.swift */,
+				7B0B9EE5C9C128E73F4F0586 /* Info.plist */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		FC9F4F2768DA93BEB8E47B28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16A368FF64246CE7E046C7CA /* Felt.app */,
+				7ADE1168FE540EEB879066F6 /* FeltBroadcast.appex */,
+				782A0301673B07EAD4AD0B02 /* FeltWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C3B7C98F751A92322B1FF59 /* FeltBroadcast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A55FADAC3CE4055AD5D9C13 /* Build configuration list for PBXNativeTarget "FeltBroadcast" */;
+			buildPhases = (
+				0958F9513AFC5652076E2506 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeltBroadcast;
+			packageProductDependencies = (
+			);
+			productName = FeltBroadcast;
+			productReference = 7ADE1168FE540EEB879066F6 /* FeltBroadcast.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B8E5CF7D32E84928C7A8F500 /* FeltWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A31E036C4797CBA300397D8 /* Build configuration list for PBXNativeTarget "FeltWatch" */;
+			buildPhases = (
+				860C5016608393DC3B84D4FA /* Sources */,
+				EAC6EFB4D2DF3BA35CF021B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeltWatch;
+			packageProductDependencies = (
+			);
+			productName = FeltWatch;
+			productReference = 782A0301673B07EAD4AD0B02 /* FeltWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE00E36E0C781174B7991D58 /* Felt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BFF9C76A7DB3718B21883E /* Build configuration list for PBXNativeTarget "Felt" */;
+			buildPhases = (
+				58267FA3F5D8227F211119CD /* Sources */,
+				56C872EE4F764087DD76CE2E /* Resources */,
+				056647FD80EA3B5C8FD1FF1C /* Embed Foundation Extensions */,
+				4CAA196D0E6C56433111AFC4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7A5C43DF63630C0F854D745 /* PBXTargetDependency */,
+				3790C8427D5193A841CD1671 /* PBXTargetDependency */,
+			);
+			name = Felt;
+			packageProductDependencies = (
+			);
+			productName = Felt;
+			productReference = 16A368FF64246CE7E046C7CA /* Felt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA9522F4D80EE6583C75F121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6C3B7C98F751A92322B1FF59 = {
+						DevelopmentTeam = MQ7A2U7JWY;
+						ProvisioningStyle = Automatic;
+					};
+					B8E5CF7D32E84928C7A8F500 = {
+						DevelopmentTeam = MQ7A2U7JWY;
+						ProvisioningStyle = Automatic;
+					};
+					FE00E36E0C781174B7991D58 = {
+						DevelopmentTeam = MQ7A2U7JWY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 46EEC4CCD2865BD2E6CD3E51 /* Build configuration list for PBXProject "Felt" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1D0DEE323D9C21EBD241DDC9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FC9F4F2768DA93BEB8E47B28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE00E36E0C781174B7991D58 /* Felt */,
+				6C3B7C98F751A92322B1FF59 /* FeltBroadcast */,
+				B8E5CF7D32E84928C7A8F500 /* FeltWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56C872EE4F764087DD76CE2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F12E09061DCAF111ABF2693 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC6EFB4D2DF3BA35CF021B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3460361B3057D6C1B68E54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0958F9513AFC5652076E2506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C0A803A9166AD818EACE0D /* Analyzer.swift in Sources */,
+				2F527994BEA039CBE8B35E79 /* SampleHandler.swift in Sources */,
+				AD6B7A5B304441F6AF489154 /* SharedChannel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58267FA3F5D8227F211119CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D338169CC5E51E742DB3A8 /* Analyzer.swift in Sources */,
+				5AEF91C9FAB4D67DBB3ABE67 /* BigScreen.swift in Sources */,
+				1EB2BFA44127002F80FDA147 /* Engine.swift in Sources */,
+				BC52F39FAF742F283C97BC57 /* Exposure.metal in Sources */,
+				FBAC6A5A3311DB72EA55EDA6 /* Haptics.swift in Sources */,
+				92BF4407039FC39286364832 /* Library.swift in Sources */,
+				9C25910AD41C7DA93248EBF6 /* Links.swift in Sources */,
+				4FABFBC27C8B5C9A99562C62 /* MelodyLines.swift in Sources */,
+				6D774BA8BBD96AA8B5028B04 /* NoteReader.swift in Sources */,
+				A70192E82D9DAD89D493C43C /* Reading.swift in Sources */,
+				4F661DCEBD158C2E1CF07AC5 /* Scenes.swift in Sources */,
+				E25DD31B9381E8088E738761 /* SharedChannel.swift in Sources */,
+				A260C0683C8C3F8BB50AD83E /* Sign.metal in Sources */,
+				F22D132046575DDD1B5690AB /* SignHand.swift in Sources */,
+				4EFDC965EA45FA788A2FD640 /* SignWords.swift in Sources */,
+				9F65132A734047C6834ADFC2 /* Torch.swift in Sources */,
+				6F3B2097A54D57885AC28711 /* Views.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860C5016608393DC3B84D4FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCD111FF977B55C50D645EE /* FeltWatch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3790C8427D5193A841CD1671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C3B7C98F751A92322B1FF59 /* FeltBroadcast */;
+			targetProxy = 875C2091FCF29DC80A9DBFD5 /* PBXContainerItemProxy */;
+		};
+		C7A5C43DF63630C0F854D745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8E5CF7D32E84928C7A8F500 /* FeltWatch */;
+			targetProxy = 3AE9132FC075A3B5A44DAB38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33AA4F4C2A5627AC602585A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iOS/Felt.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Felt;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.supremelabssoftware.felt;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		504BE79FE308430BBB637442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iOS/Felt.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Felt;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.supremelabssoftware.felt;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54D2AE0C58DA7FD588777BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 9;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = MQ7A2U7JWY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		963DD239C836463E1EC16470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Broadcast/FeltBroadcast.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Broadcast/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Felt;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.supremelabssoftware.felt.broadcast;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6E410D5DB5344619AB30A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Broadcast/FeltBroadcast.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Broadcast/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Felt;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.supremelabssoftware.felt.broadcast;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD3F3D72B2C5E48B43778AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Watch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Felt;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.supremelabssoftware.felt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.supremelabssoftware.felt.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		F8576F2685F63483ED6880F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 9;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MQ7A2U7JWY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		FBDE0E380DEB1D204A50D2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Watch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Felt;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.supremelabssoftware.felt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.supremelabssoftware.felt.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46EEC4CCD2865BD2E6CD3E51 /* Build configuration list for PBXProject "Felt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D2AE0C58DA7FD588777BDD /* Debug */,
+				F8576F2685F63483ED6880F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5A31E036C4797CBA300397D8 /* Build configuration list for PBXNativeTarget "FeltWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDE0E380DEB1D204A50D2AA /* Debug */,
+				DD3F3D72B2C5E48B43778AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6A55FADAC3CE4055AD5D9C13 /* Build configuration list for PBXNativeTarget "FeltBroadcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E410D5DB5344619AB30A7F /* Debug */,
+				963DD239C836463E1EC16470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E5BFF9C76A7DB3718B21883E /* Build configuration list for PBXNativeTarget "Felt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AA4F4C2A5627AC602585A0 /* Debug */,
+				504BE79FE308430BBB637442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA9522F4D80EE6583C75F121 /* Project object */;
+}
