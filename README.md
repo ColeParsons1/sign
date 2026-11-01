@@ -28,3 +28,7 @@ open Felt.xcodeproj
 Set your own development team and bundle identifiers in `project.yml` before running on a device.
 
 For testing without a singer, set `FELT_SIGN_WORDS="some words"` in the scheme's environment to spell those words in turn.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
